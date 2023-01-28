@@ -1,0 +1,13 @@
+h2{
+    display: flex;
+    font-family:'Courier New', Courier, monospace;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at center, rgb(255, 251, 0), rgba(255,255,255, 0) 250px)
+}
+
+h2:hover{
+    background: radial-gradient(circle at center, rgb(255, 0, 0), rgba(255,255,255, 0) 100px)
+}
